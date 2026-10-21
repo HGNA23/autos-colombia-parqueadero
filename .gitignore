@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.sqlite3
+*.db
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+pnpm-debug.log*
+
+# Environment variables / local secrets
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.venv*/
+.tmp/
+.npm-cache/
+.pnpm-config/
+.pnpm-store/
+.pnpm-home/
+.npmrc
